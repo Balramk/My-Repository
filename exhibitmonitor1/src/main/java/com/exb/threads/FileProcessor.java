@@ -17,17 +17,14 @@ public class FileProcessor extends PollerCheck implements Runnable{
 			
 			for(File file : files){
 				try {
+					//Delete file which is invalid, duplicate & not on time
 					if(!isValid(file) || isDuplicate(file) || !isOnTime(file)){
 						deleteFile(file);
 						System.out.println(file.getName() + " is deleted successfully!");
 					}
-					else{
-						//Make entry into Map<fileName,date>
-						//TODO
-						
-						//Move file to process folder
+					else{	
+						//Valid file move to process folder
 						moveProcessedFile(file);
-						
 					}
 				} catch (ParseException e) {
 					e.printStackTrace();

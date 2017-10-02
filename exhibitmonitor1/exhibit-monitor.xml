@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exhibit>
-	<inputFile name="a.csv" time="15:15:34"/>
-	<inputFile name="b.csv" time="06:12:30"/>
-	<inputFile name="c.csv" time="13:11:35"/>
+	<input-file name="a.csv" time="03 SEP 2017 20:15:34" />
+	<input-file name="c.csv" time="03 SEP 2017 21:11:35" />
+	<input-file name="d.csv" time="03 SEP 2017 22:10:32" />
+	<input-file name="f.csv" time="03 SEP 2017 22:10:32" />
+	<input-file name="g.csv" time="03 SEP 2017 22:10:32" />
+	<input-file name="i.csv" time="03 SEP 2017 22:10:32" />
 </exhibit>

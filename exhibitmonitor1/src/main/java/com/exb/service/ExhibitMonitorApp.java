@@ -12,10 +12,10 @@ import com.exb.threads.FileProcessor;
 
 public class ExhibitMonitorApp {
 	public static void main(String[] args) {
-		LoadApplicationContext monitorContext;
+		LoadApplicationContext context = null;
 		
 		try {
-			monitorContext = LoadApplicationContext.loadContext();
+			context = LoadApplicationContext.loadContext();
 		} catch (SAXException | IOException | ParserConfigurationException e) {
 			System.out.println("Exception occurred while loading LoadApplicationContext");
 			System.out.println(e.getMessage());

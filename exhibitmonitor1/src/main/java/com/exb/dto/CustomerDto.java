@@ -67,8 +67,9 @@ public class CustomerDto {
 
 	@Override
 	public String toString() {
-		return ("SrNo: " + this.getSrNo() + "| First Name: " + this.getFirstName()
-				+ "| Last Name: " + this.getLastName() + "| Date od Birth: " + this.getDob() + "| Date of Death: " + this.getDod()
-				+ "| Loan Amount: " + this.getLoanAmount());
+		return ("SrNo: " + this.getSrNo() + "|| First Name: " + this.getFirstName()
+				+ "|| Last Name: " + this.getLastName() + "|| Date od Birth: " 
+				+ this.getDob() + "|| Date of Death: " + this.getDod()
+				+ "|| Loan Amount: " + this.getLoanAmount());
 	}
 }
